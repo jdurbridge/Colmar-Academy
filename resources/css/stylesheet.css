@@ -1,0 +1,63 @@
+/* Universal */
+
+body {
+    text-align: left;
+    color: grey;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 16px;
+}
+
+h1 {
+    font-size: 4rem;
+
+}
+
+h2 {
+    font-size: 2rem;
+}
+
+.main--image {
+    width: 60%;
+}
+
+/* Heading */
+
+header {
+    background-color: white;
+    position: fixed;
+    z-index: 1;
+    height: 64px;
+    width: 100%;
+}
+
+.logo--lockup {
+    text-align: left;
+}
+
+.logo {
+    margin-left: 24px;
+    height: 32px;
+}
+
+.logo-colmer {
+    color: black;
+    font-size: 28px;
+}
+
+.logo-academy {
+    color: grey;
+    font-size: 28px;
+}
+
+.top--menu {
+    text-align: right;
+    font-style: bold;
+    padding-left: 16px;
+    margin-right: 24px;
+}
+
+/* Main section */
+
+.cta--section {
+    background-color: lightslategray;
+}
