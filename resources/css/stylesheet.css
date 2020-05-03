@@ -18,6 +18,12 @@ h2 {
 
 .main--image {
     width: 60%;
+    margin: 32px 24px;
+    text-align: left;
+}
+
+.small--image {
+    height: auto;
 }
 
 /* Heading */
@@ -26,6 +32,7 @@ header {
     background-color: white;
     position: fixed;
     z-index: 1;
+    top: 0;
     height: 64px;
     width: 100%;
 }
@@ -56,8 +63,56 @@ header {
     margin-right: 24px;
 }
 
-/* Main section */
+/* Banner section */
+
+.banner--section {
+    background-color: lightslategray;
+    width: 100%;
+}
 
 .cta--section {
+    text-align: right;
+}
+
+.cta--button {
+    padding: 8px 0;
+    background-color: darkslategrey;
+    width: 30%;
+}
+
+/* Information section */
+
+.info--section {
+    background-color: white;
+}
+
+
+/* Courses section */
+
+.courses--section {
     background-color: lightslategray;
+}
+
+/* Thesis section */
+
+.thesis--section {
+    background-color: white;
+}
+
+/* Footer */
+
+footer {
+    border-top: solid black 1px;
+}
+
+.copyright {
+    text-align: left;
+    padding-left: 24px;
+    padding-top: 16px;
+    font-size: 12px;
+}
+
+.footer--text {
+    text-align: right;
+    font-size: 12px;
 }
