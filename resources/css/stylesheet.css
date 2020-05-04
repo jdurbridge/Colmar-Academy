@@ -1,9 +1,9 @@
 /* UNIVERSAL STYLE ---------------------- */
 
 body {
-    background-color: #fff;
+    background-color: #ffffff;
     color: #303030;
-    font-family: "open-sans", sans-serif;
+    font-family: "Open-Sans", sans-serif;
     font-size: 16px;
     line-height: 0;
     margin: 0;
@@ -44,6 +44,7 @@ main {
 /* Patterns */
 
 button {
+    height: 4rem;
     background-color: #303030;
     color: white;
     border: none;
@@ -124,9 +125,8 @@ ul {
 
 /* Articles */
 .articles {
-    background-color: white;
+    display: flex;
 }
-
 
 .card_pic {
     width: 100%;
@@ -438,7 +438,7 @@ ul {
 
     .articles .others {
         padding: 1rem 1rem 2rem 1rem;
-        width 100%;
+        width: 100%;
     }
 
     .articles .others .white {
@@ -446,11 +446,11 @@ ul {
     }
 
     .articles .others .card_pic .pic {
-        width 100%
+        width: 100%
     }
 
     .articles .others .card_pic .pic .img {
-        width 100%
+        width: 100%
     }
 
     /* Courses */
